@@ -1,195 +1,225 @@
-/*------------------------------------*\
-    $TABLE-OF-CONTENTS
-\*------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400|Merriweather:700,400);
+.mailchimp {
+  width: 61.8%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  background: #34495e; }
 
-/**
- * TABLE-OF-CONTENTS............You’re reading it!
- * SITE-WIDE...............Site wide declarations (html, body, box layout model)
- * TYPOGRAPHY...........Sets sizes and styles for type elements (h1-h3, p, a, blockquote etc.)
- */
-
-/*------------------------------------*\
-    $SITE-WIDE
-\*------------------------------------*/
- html {
-    font-size: 62.5%;
-    height:100%;
-    /* Keeps page centered in all browsers regardless of content height */
-    -webkit-text-size-adjust: 100%;
-    /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
-    -ms-text-size-adjust: 100%;
-    /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
-}
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    height:100%;
-}
-h1, h2, h3, h4 {
-    font-family:'Raleway', sans-serif;
-    color:#ecf0f1;
-}
-img, embed, object, video {
-    max-width:100%;
-}
-
-
-
-
-/*------------------------------------*\
-    $TYPOGRAPHY
-\*------------------------------------*/
-h1 {
-    font:normal 700 5rem/5rem'Raleway' sans-serif;
+#mc_embed_signup {
+  clear: left;
+  font: 24px sans-serif;
+  color: white;
+  text-align: center; }
+  #mc_embed_signup form {
+    display: block;
+    position: relative;
+    padding: 10px 0 10px 3%; }
+  #mc_embed_signup h2 {
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 1.4em; }
+  #mc_embed_signup input {
+    border: 1px solid #999999;
+    -webkit-appearance: none; }
+    #mc_embed_signup input[type=checkbox] {
+      -webkit-appearance: checkbox; }
+    #mc_embed_signup input[type=radio] {
+      -webkit-appearance: radio; }
+    #mc_embed_signup input:focus {
+      border-color: #333333; }
+  #mc_embed_signup .button {
+    clear: both;
+    background-color: #aaaaaa;
+    border: 0 none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0;
     text-align: center;
-}
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto; }
+    #mc_embed_signup .button:hover {
+      background-color: #777777; }
+  #mc_embed_signup .small-meta {
+    font-size: 11px; }
+  #mc_embed_signup .nowrap {
+    white-space: nowrap; }
+  #mc_embed_signup .clear {
+    clear: none;
+    display: inline; }
+  #mc_embed_signup label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold; }
+  #mc_embed_signup input.email {
+    display: block;
+    padding: 8px 0;
+    margin: 0 auto;
+    text-indent: 5px;
+    width: 58%;
+    min-width: 130px; }
+  #mc_embed_signup input.button {
+    display: hidden;
+    width: 35%;
+    margin: 0 0 10px 0;
+    min-width: 90px; }
+  #mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0em 0.5em 0em 0.5em;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    clear: both; }
+  #mc_embed_signup div.response {
+    margin: 1em 0;
+    padding: 1em 0.5em 0.5em 0;
+    font-weight: bold;
+    float: left;
+    top: -1.5em;
+    z-index: 1;
+    width: 80%; }
+  #mc_embed_signup #mce-error-response {
+    display: none; }
+  #mc_embed_signup #mce-success-response {
+    color: #529214;
+    display: none; }
+  #mc_embed_signup label.error {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 1.05em;
+    text-align: left;
+    padding: 0.5em 0; }
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%; }
+
+h1, h2, h3, h4 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #ecf0f1; }
+
+img, embed, object, video {
+  max-width: 100%; }
+
+h1 {
+  font: normal 700 5rem/5rem "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
 h2 {
-    font:normal 400 3.1rem/5rem'Raleway' sans-serif;
-}
+  font: normal 400 3.1rem/5rem "Raleway", Helvetica, Arial, sans-serif; }
+
 h3 {
-    font:normal 700 2.4rem/3.8rem'Raleway' sans-serif;
-    margin-bottom:1.9rem;
-}
+  font: normal 700 2.4rem/3.8rem "Raleway", Helvetica, Arial, sans-serif;
+  margin-bottom: 1.9rem; }
+
 p {
-    font:normal 400 1.9rem/2.8rem'Merriweather' serif;
-    color:#ecf0f1;
-    margin-bottom: 2.7rem;
-}
+  font: normal 400 1.9rem/2.8rem "Merriweather", Georgia, Times, "Times New Roman", serif;
+  color: #ecf0f1;
+  margin-bottom: 2.7rem; }
 
 hr {
-    color:#ecf0f1;
-    width:61.8%;
-}
+  color: #ecf0f1;
+  width: 61.8%; }
 
 a {
-    font:normal 400 1.9rem/2.8rem'Merriweather' serif;
-    color: #444;
-    text-decoration: none;
-    border-bottom: 1px solid #222;
-    outline: 0;
-    cursor: pointer;
-}
-a:hover, a:focus, a:active {
-    border-style: dotted;
-}
+  font: normal 400 1.9rem/2.8rem "Merriweather", Georgia, Times, "Times New Roman", serif;
+  color: #444444;
+  text-decoration: none;
+  border-bottom: 1px solid #222222;
+  outline: 0;
+  cursor: pointer; }
+  a:hover, a:focus, a:active {
+    border-style: dotted; }
+
 .code {
-    padding: 1.1rem;
-    border: .2rem solid #dae0a7;
-    background: #eef2ca;
-    color: #ccc;
-    color: rgba(34, 34, 34, .8);
-    white-space: pre;
-    font-size: 1.6rem;
-    font-family:'Consolas', monospace;
-    line-height: 1.35;
-}
-.bg { 
-  background: no-repeat center center fixed; 
+  padding: 1.1rem;
+  border: 0.2rem solid #dae0a7;
+  background: #eef2ca;
+  color: #cccccc;
+  color: rgba(34, 34, 34, 0.8);
+  white-space: pre;
+  font-size: 1.6rem;
+  font-family: "Consolas", "Lucida Console", monospace;
+  line-height: 1.35; }
+
+.bg {
+  background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .container {
-    text-align:center;
-     margin: auto;
-  width:61.8%;
-}
+  text-align: center;
+  margin: auto;
+  width: 61.8%; }
 
 .overlay {
-  min-height:100%;
-  min-width:100%;
-  position:absolute;
-  top:0;
-  background-color:rgba(231, 76, 60, 0.5); 
-}
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(231, 76, 60, 0.5); }
 
 .bottom {
-    padding-top:10%;
-    min-height:50%;
-}
-.top {
-    padding-bottom: 10%;
-    min-height:50%;
-}
+  padding-top: 10%;
+  min-height: 50%; }
 
+.top {
+  padding-bottom: 10%;
+  min-height: 50%; }
 
 .logo {
-        margin: 0 auto;
-        background-image: url('logo.png');
-        width: 50%;
-        background-size: contain;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-        height: 40%;
-        content: "";
-    }
-    .coming {
-        font-family:Raleway;
-        text-align: center;
-        color: #ecf0f1;
-        font-size: 4.8rem;
-    }
-.mailchimp {
-    width:61.8%;
-    margin:0 auto;
-    text-align: center;
-    border-radius: 10px;
-  background: #34495e;
-}
-     #mc_embed_signup{clear:left; font:24px sans-serif; color: white; text-align: center;}
+  margin: 0 auto;
+  background-image: url("logo.png");
+  width: 50%;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 40%;
+  content: ""; }
 
+.coming {
+  font-family: Raleway;
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 4.8rem; }
 
-    /* MailChimp Form Embed Code - Slim - 08/17/2011 */
-#mc_embed_signup form {display:block; position:relative; padding:10px 0 10px 3%}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
-#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
-#mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-#mc_embed_signup .button:hover {background-color:#777;}
-#mc_embed_signup .small-meta {font-size: 11px;}
-#mc_embed_signup .nowrap {white-space:nowrap;}     
-#mc_embed_signup .clear {clear:none; display:inline;}
-
-#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
-#mc_embed_signup input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
-
-#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
-#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-#mc_embed_signup #mce-error-response {display:none;}
-#mc_embed_signup #mce-success-response {color:#529214; display:none;}
-#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
-
-@media all and (min-width:1001px) {
-    .container {
-        max-width:800px;
-    }
-}
+@media all and (min-width: 1001px) {
+  .container {
+    max-width: 800px; } }
 @media all and (max-width: 1000px) {
- .mailchimp {
-    width:75%;
-  }
-}
-
-
+  .mailchimp {
+    width: 75%; } }
 @media all and (max-width: 699px) {
   .container, .mailchimp {
-    width:85%;
-  }
-}
-
+    width: 85%; } }
 @media all and (max-width: 480px) {
-  .container, .mailchimp  {
-    width:90%;
-  }
+  .container, .mailchimp {
+    width: 90%; }
+
   h1 {
-    font-size:3.5rem;
-  }
+    font-size: 3.5rem; }
+
   p {
-    font-size: 1.5rem;
-  }
-}
+    font-size: 1.5rem; } }

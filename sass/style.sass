@@ -1,0 +1,130 @@
+@import 'fonts'
+@import 'mailchimp'
+@import 'vars'
+
+// *$SITE-WIDE
+
+html
+  font-size: 62.5%
+  height: 100% //Keeps page centered in all browsers regardless of content height
+  -webkit-text-size-adjust: 100% //Prevents iOS text size adjust after orientation change, without disabling user zoom
+  -ms-text-size-adjust: 100% //www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+
+body
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  height: 100%
+
+h1, h2, h3, h4
+  font-family: $fontHeader
+  color: #ecf0f1
+
+img, embed, object, video
+  max-width: 100%
+
+
+// *$TYPOGRAPHY
+
+h1
+  font: normal 700 5rem / 5rem $fontHeader
+  text-align: center
+
+h2
+  font: normal 400 3.1rem / 5rem $fontHeader
+
+h3
+  font: normal 700 2.4rem / 3.8rem $fontHeader
+  margin-bottom: 1.9rem
+
+p
+  font: normal 400 1.9rem / 2.8rem $fontBody
+  color: #ecf0f1
+  margin-bottom: 2.7rem
+
+hr
+  color: #ecf0f1
+  width: 61.8%
+
+a
+  font: normal 400 1.9rem / 2.8rem $fontBody
+  color: #444
+  text-decoration: none
+  border-bottom: 1px solid #222
+  outline: 0
+  cursor: pointer
+  &:hover, &:focus, &:active
+    border-style: dotted
+
+.code
+  padding: 1.1rem
+  border: .2rem solid #dae0a7
+  background: #eef2ca
+  color: #ccc
+  color: rgba(34, 34, 34, 0.8)
+  white-space: pre
+  font-size: 1.6rem
+  font-family: $fontMono
+  line-height: 1.35
+
+.bg
+  background: no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+.container
+  text-align: center
+  margin: auto
+  width: 61.8%
+
+.overlay
+  min-height: 100%
+  min-width: 100%
+  position: absolute
+  top: 0
+  background-color: rgba(231, 76, 60, 0.5)
+
+.bottom
+  padding-top: 10%
+  min-height: 50%
+
+.top
+  padding-bottom: 10%
+  min-height: 50%
+
+.logo
+  margin: 0 auto
+  background-image: url('logo.png')
+  width: 50%
+  background-size: contain
+  background-position: center bottom
+  background-repeat: no-repeat
+  height: 40%
+  content: ""
+
+.coming
+  font-family: Raleway
+  text-align: center
+  color: #ecf0f1
+  font-size: 4.8rem
+
+@media all and (min-width: 1001px)
+  .container
+    max-width: 800px
+
+@media all and (max-width: 1000px)
+  .mailchimp
+    width: 75%
+
+@media all and (max-width: 699px)
+  .container, .mailchimp
+    width: 85%
+
+@media all and (max-width: 480px)
+  .container, .mailchimp
+    width: 90%
+  h1
+    font-size: 3.5rem
+  p
+    font-size: 1.5rem
