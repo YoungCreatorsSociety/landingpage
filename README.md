@@ -1,3 +1,3 @@
-Changes reflected every five minutes
+Changes reflected instantly
 
 **[ycs.io](http://ycs.io)**
