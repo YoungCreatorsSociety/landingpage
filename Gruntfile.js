@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       options: {},
       single_file: {
         src: 'css/style.css',
-        dest: 'css/min.css'
+        dest: 'css/unmin.css'
       }
     },
     cssmin: {
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
       },
       prefixStyles: {
         files: ['css/style.css'],
-        tasks: ['autoprefixer', 'cssmin']
+        tasks: ['autoprefixer']
       }
     }
   });
@@ -46,5 +46,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-css');
 
-    grunt.registerTask('default', ['sass', 'autoprefixer']);
+    grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin']);
   };
