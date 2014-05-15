@@ -26,7 +26,7 @@ img, embed, object, video
 // Typography
 
 h1
-  font: normal 700 5rem $fontHeader
+  font: normal 800 5rem / 5rem $fontHeader
   font-variant: small-caps
   text-transform: uppercase
   text-align: center
@@ -35,12 +35,8 @@ h2
   font: normal 400 3.1rem / 5rem $fontHeader
 
 h3
-  font: normal 700 2.4rem / 3.8rem $fontHeader
+  font: normal 800 2.4rem / 3.8rem $fontHeader
   margin-bottom: 1.9rem
-
-hr
-  color: $lightAccent
-  width: 61.8%
 
 .bg
   background: no-repeat center center fixed
@@ -52,12 +48,12 @@ hr
 .container
   text-align: center
   margin: auto
+  margin-top: 15%
   width: 61.8%
 
 .title
   border: 1em solid $lightAccent
-  margin-top: 25%
-  letter-spacing: .03em
+  letter-spacing: .05rem
 
 .overlay
   min-height: 100%
@@ -73,27 +69,28 @@ p
   font-family: $fontBody
   font: italic 400 2.5rem / 4rem $fontBody
   margin-top: 9%
+  margin-bottom: 9%
   color: $lightAccent
   min-height: 50%
   strong
-    font-style: inherit
-    font: italic 700 2.5rem / 4rem $fontBody
+    font: inherit
+    font-weight: 800
 
-.logo
-  margin: 0 auto
-  background-image: url('logo.png')
-  width: 50%
-  background-size: contain
-  background-position: center bottom
-  background-repeat: no-repeat
-  height: 40%
-  content: ""
+//.logo
+//  margin: 0 auto
+//  background-image: url('logo.png')
+//  width: 50%
+//  background-size: contain
+//  background-position: center bottom
+//  background-repeat: no-repeat
+//  height: 40%
+//  content: ""
 
 .coming
   font-family: $fontHeader
   text-align: center
   color: $lightAccent
-  font-size: 4.8rem
+  font-size: 4rem
 
 ::selection //Safari, etc.
   background: rgba(122, 156, 147, 0.9)
