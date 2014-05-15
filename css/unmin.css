@@ -16,11 +16,13 @@
     width: 96.25%;
     text-align: center;
     background: #ecf0f1;
+    -webkit-transition: border-color 0.5s ease;
     transition: border-color 0.5s ease;
     border: 0.5rem solid #ecf0f1;
     font: normal 800 3rem/3.5rem "Raleway", Helvetica, Arial, sans-serif; }
     #mc_embed_signup .email:focus {
       border-color: #34495e;
+      -webkit-transition: border-color 0.5s ease;
       transition: border-color 0.5s ease; }
   #mc_embed_signup .button {
     clear: both;
@@ -37,11 +39,13 @@
     text-transform: uppercase;
     text-align: center;
     background: none;
+    -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     height: 6.5rem; }
     #mc_embed_signup .button:hover {
       border-color: #34495e;
       color: #34495e;
+      -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease; }
 
 html {
@@ -79,8 +83,6 @@ h3 {
 .bg {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .container {
@@ -120,6 +122,10 @@ p {
   text-align: center;
   color: #ecf0f1;
   font-size: 4rem; }
+
+::-moz-selection {
+  background: rgba(122, 156, 147, 0.9);
+  color: #ecf0f1; }
 
 ::selection {
   background: rgba(122, 156, 147, 0.9);
