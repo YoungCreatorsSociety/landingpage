@@ -1,3 +1,4 @@
 deployer
 deployer/
 deployer/*
+node_modules/
