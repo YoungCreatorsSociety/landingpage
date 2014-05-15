@@ -142,8 +142,6 @@ hr {
 .bg {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .container {
@@ -181,6 +179,7 @@ p {
   margin: 0 auto;
   background-image: url("logo.png");
   width: 50%;
+  -webkit-background-size: contain;
   background-size: contain;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -192,6 +191,10 @@ p {
   text-align: center;
   color: #ecf0f1;
   font-size: 4.8rem; }
+
+::-moz-selection {
+  background: rgba(122, 156, 147, 0.9);
+  color: #ecf0f1; }
 
 ::selection {
   background: rgba(122, 156, 147, 0.9);
