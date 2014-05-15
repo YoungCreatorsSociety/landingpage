@@ -88,7 +88,7 @@ h3 {
 .container {
   text-align: center;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 61.8%; }
 
 .title {
@@ -100,7 +100,7 @@ h3 {
   min-width: 100%;
   position: absolute;
   top: 0;
-  background-color: rgba(122, 156, 147, 0.77); }
+  background-color: rgba(122, 156, 147, 0.5); }
 
 .bottom {
   padding-top: 10%;
