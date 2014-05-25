@@ -21,8 +21,7 @@ module.exports = function(grunt) {
                 '<%= grunt.template.today("yyyy-mm-dd") %> */'
       },
       my_target: {
-        options: {},
-        src: 'css/min.css',
+        src: 'css/style.css',
         dest: 'css/min.css'
       }
     },
@@ -37,6 +36,10 @@ module.exports = function(grunt) {
       prefixStyles: {
         files: ['css/style.css'],
         tasks: ['autoprefixer']
+      },
+      CSStoMin:{
+        files: ['css/style.css'],
+        tasks: ['cssmin']
       }
     }
   });
