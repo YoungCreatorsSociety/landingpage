@@ -13,14 +13,19 @@
     display: block;
     padding: 1rem;
     margin: 4.5% auto 0 auto;
-    width: 96.25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     text-align: center;
     background: #ecf0f1;
     -webkit-transition: border-color 0.5s ease;
     transition: border-color 0.5s ease;
     border: 0.5rem solid #ecf0f1;
-    font: normal 800 3rem/3.5rem "Raleway", Helvetica, Arial, sans-serif; }
+    font-style: normal;
+    font: 800 3rem/3.5rem "Raleway", Helvetica, Arial, sans-serif; }
     #mc_embed_signup .email:focus {
+      outline: none;
       border-color: #34495e;
       -webkit-transition: border-color 0.5s ease;
       transition: border-color 0.5s ease; }
@@ -34,7 +39,8 @@
     border: 0.5rem solid #ecf0f1;
     margin: 4.5% auto 0 auto;
     letter-spacing: 0.03em;
-    font: normal 800 3rem/3.5rem "Raleway", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font: 800 3rem/3.5rem "Raleway", Helvetica, Arial, sans-serif;
     font-variant: small-caps;
     text-transform: uppercase;
     text-align: center;
@@ -47,6 +53,9 @@
       color: #34495e;
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease; }
+    #mc_embed_signup .button:active {
+      background: #cfd9db;
+      background: rgba(236, 240, 241, 0.5); }
 
 html {
   font-size: 62.5%;
@@ -68,16 +77,19 @@ img, embed, object, video {
   max-width: 100%; }
 
 h1 {
-  font: normal 800 5rem/5rem "Raleway", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font: 800 5rem/5rem "Raleway", Helvetica, Arial, sans-serif;
   font-variant: small-caps;
   text-transform: uppercase;
   text-align: center; }
 
 h2 {
-  font: normal 400 3.1rem/5rem "Raleway", Helvetica, Arial, sans-serif; }
+  font-style: normal;
+  font: 400 3.1rem/5rem "Raleway", Helvetica, Arial, sans-serif; }
 
 h3 {
-  font: normal 800 2.4rem/3.8rem "Raleway", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font: 800 2.4rem/3.8rem "Raleway", Helvetica, Arial, sans-serif;
   margin-bottom: 1.9rem; }
 
 .bg {
